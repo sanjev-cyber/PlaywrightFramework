@@ -1,0 +1,18 @@
+[
+    {
+        "UserName" : "sanjeevkumar19@gmail.com",
+        "Password" : "Team@123",
+        "email"    : "sanjeevkumar19@gmail.com",
+        "productName" : "zara coat 3",
+        "countryName"  : "ind"
+    } ,  
+
+    {
+        "UserName" : "sanjeevkumar18@gmail.com",
+        "Password" : "Team@123",
+        "email"    : "sanjeevkumar18@gmail.com",
+        "productName" : "iphone 13 pro",
+        "countryName"  : "ind"
+    }   
+    
+]

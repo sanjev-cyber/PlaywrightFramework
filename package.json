@@ -1,0 +1,22 @@
+{
+  "name": "playwrightautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test tests/WebApiPart1.spec.js --headed",
+    "regression" : "npx playwright test",
+    "ApiTest" :"npx playwright test --grep @API",
+    "WebTest" : "npx playwright test --grep @Web",
+    "ClientAppTest" : "npx playwright test tests/ClientAppPO.spec.js",
+    "ChromeTestAllure" : "npx playwright test --config playwright.config1.js --project=Chrome --reporter=line,allure-playwright "
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.27.1",
+    "allure-playwright": "^2.0.0-beta.19"
+  }
+}
